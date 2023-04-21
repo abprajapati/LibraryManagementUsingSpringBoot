@@ -1,11 +1,8 @@
 # LibraryManagementUsingSpringBoot
 
 
-This project is a RESTful Web Service enabled with persistent storage that facilitates Library Management. A student can issue or return a book from this library 
-and that can should be recorded using transaction. Before issuing a book to the user, several edge cases get checked. Edge cases are the user must be a valid student,
-is a book available in the library, is the book assigned to any student of the library, and many more. While returning a book to the library, it makes sure that the 
-user is a valid student of the library. If yes, then it also makes sure that the student is returning the same book which was issued to him. Many other features are 
-part of this application.
+This project is a RESTful Web Service enabled with persistent storage that facilitates Library Management. It follows Model-View-Controller(MVC) architecture and build using Spring Boot. In this application, a student can issue or return a book from this library and that can should be recorded using transaction. Before issuing a book
+to the user, several edge cases get checked. Edge cases are the user must be a valid student, is a book available in the library, is the book assigned to any student of the library, and many more. While returning a book to the library, it makes sure that the user is a valid student of the library. If yes, then it also makes sure that the student is returning the same book which was issued to him. Many other features are part of this application.
 
 # Used Skills, Technologies and Tools in Developing this Application
 1) Java
